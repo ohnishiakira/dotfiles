@@ -11,6 +11,7 @@ Bundle "thinca/vim-quickrun"
 Bundle "cakebaker/scss-syntax.vim"
 Bundle "Shougo/neocomplcache"
 Bundle "mattn/zencoding-vim"
+Bundle "othree/html5.vim"
 
 " vim.org
 Bundle "JSON.vim"
