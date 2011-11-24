@@ -10,6 +10,7 @@ Bundle "altercation/vim-colors-solarized"
 Bundle "thinca/vim-quickrun"
 Bundle "cakebaker/scss-syntax.vim"
 Bundle "Shougo/neocomplcache"
+Bundle "mattn/zencoding-vim"
 
 " vim.org
 Bundle "JSON.vim"
