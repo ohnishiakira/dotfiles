@@ -13,6 +13,8 @@ Bundle "Shougo/neocomplcache"
 Bundle "mattn/zencoding-vim"
 Bundle "othree/html5.vim"
 Bundle "motemen/git-vim"
+Bundle "kana/vim-smartchr"
+Bundle "scrooloose/nerdcommenter"
 
 " vim.org
 Bundle "JSON.vim"
