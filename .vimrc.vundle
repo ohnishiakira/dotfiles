@@ -15,9 +15,9 @@ Bundle "othree/html5.vim"
 Bundle "motemen/git-vim"
 Bundle "kana/vim-smartchr"
 Bundle "scrooloose/nerdcommenter"
+Bundle "mattn/gist-vim"
 
 " vim.org
 Bundle "JSON.vim"
-Bundle "Gist.vim"
 
 filetype plugin indent on
