@@ -16,7 +16,7 @@ Bundle "motemen/git-vim"
 Bundle "kana/vim-smartchr"
 Bundle "scrooloose/nerdcommenter"
 Bundle "mattn/gist-vim"
-Bundle "hail2u/vim-css3-syntax"
+Bundle "ChrisYip/Better-CSS-Syntax-for-Vim"
 
 " vim.org
 Bundle "JSON.vim"
