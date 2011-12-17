@@ -16,9 +16,11 @@ Bundle "motemen/git-vim"
 Bundle "scrooloose/nerdcommenter"
 Bundle "mattn/gist-vim"
 Bundle "ChrisYip/Better-CSS-Syntax-for-Vim"
+Bundle "Shougo/vimproc"
 
 " vim.org
 Bundle "JSON.vim"
 Bundle "Align"
+Bundle 'matchit.zip'
 
 filetype plugin indent on
