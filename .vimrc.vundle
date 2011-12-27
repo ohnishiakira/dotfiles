@@ -17,6 +17,7 @@ Bundle "scrooloose/nerdcommenter"
 Bundle "mattn/gist-vim"
 Bundle "ChrisYip/Better-CSS-Syntax-for-Vim"
 Bundle "Shougo/vimproc"
+Bundle "Shougo/unite.vim"
 
 " vim.org
 Bundle "JSON.vim"
