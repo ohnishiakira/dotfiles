@@ -22,6 +22,7 @@ Bundle "Shougo/unite.vim"
 " vim.org
 Bundle "JSON.vim"
 Bundle "Align"
-Bundle 'matchit.zip'
+Bundle "matchit.zip"
+Bundle "surround.vim"
 
 filetype plugin indent on
