@@ -1,0 +1,56 @@
+# vim: set filetype=sh:
+
+# Make prompt more useful
+# check shell return value
+function csrv {
+  if [ $? -eq 0 ]; then
+    printf '\033[0;32m[^_^]\033[0m'
+  else
+    printf '\033[0;34m[+_+]\033[0m'
+  fi
+}
+
+# Bijo Linux
+function bijo {
+  wget --quiet --spider "http://bijo-linux.com/girls_images/$1.jpg"
+  if test $? -eq 0 ; then
+    open "http://bijo-linux.com/girls_images/$1.jpg"
+  else
+    echo "No Bijo Linux Entry for $1"
+    return 1
+  fi
+}
+
+function expand_alias {
+  alias $1 | sed "s/alias\ .*=\'\(.*\)\'$/\1/"
+}
+
+function mywhois {
+  \whois $* | nkf -w
+}
+
+function gemcd {
+  cd `gem contents $1 2>/dev/null | head -1 | sed -e 's/\(.*\)\/.*$/\1/'`
+}
+
+# show latest edited 10 files
+function l10 {
+  ls -ltr | tail -10
+}
+
+function google {
+  go "http://www.google.com/search?q=$1"
+}
+
+# http://stackoverflow.com/questions/7500691/rvm-sha256sum-nor-shasum-found
+function sha256sum {
+  openssl sha256 "$@" | awk '{print $2}'
+}
+
+# in ~/sketch/android/*
+# Install Android application to real machine
+function goAndroid {
+  ant clean 
+  echo "android-keystore" | ant release
+  echo "android-keystore" | ant release install
+}
