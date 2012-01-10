@@ -4,9 +4,9 @@
 # check shell return value
 function csrv {
   if [ $? -eq 0 ]; then
-    printf '\033[0;32m[^_^]\033[0m'
+    printf "\033[0;32m[^_^]\033[0m"
   else
-    printf '\033[0;34m[+_+]\033[0m'
+    printf "\033[0;34m[+_+]\033[0m"
   fi
 }
 
@@ -51,6 +51,5 @@ function sha256sum {
 # Install Android application to real machine
 function goAndroid {
   ant clean 
-  echo "android-keystore" | ant release
   echo "android-keystore" | ant release install
 }
