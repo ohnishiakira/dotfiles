@@ -51,5 +51,9 @@ function sha256sum {
 # Install Android application to real machine
 function goAndroid {
   ant clean 
-  echo "android-keystore" | ant release install
+  echo "android-keystoreandroid-keystore" | ant release install
+}
+
+function remove_ds_store {
+  find . -name .DS_Store -delete
 }
