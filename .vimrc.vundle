@@ -25,6 +25,5 @@ Bundle "JSON.vim"
 Bundle "Align"
 Bundle "matchit.zip"
 Bundle "surround.vim"
-Bundle "gtags.vim"
 
 filetype plugin indent on
