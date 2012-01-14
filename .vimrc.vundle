@@ -19,10 +19,10 @@ Bundle "ChrisYip/Better-CSS-Syntax-for-Vim"
 Bundle "Shougo/vimproc"
 Bundle "Shougo/unite.vim"
 Bundle "Shougo/vimfiler"
+Bundle "h1mesuke/vim-alignta"
 
 " vim.org
 Bundle "JSON.vim"
-Bundle "Align"
 Bundle "matchit.zip"
 Bundle "surround.vim"
 
