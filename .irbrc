@@ -32,6 +32,12 @@ def render(html, options={})
   Haml::Engine.new(html, options).render
 end
 
+class String
+  def codepoint
+    self.ord.to_s(16)
+  end
+end
+
 IRB.conf[:PROMPT][:MINE] = {
   :PROMPT_C=>"%N(%m):%03n:%i* ",
   :RETURN=>"",
