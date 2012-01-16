@@ -1,5 +1,6 @@
 require "pp"
 require "what_methods"
+require "charnames"
 
 # shortcut for Kernel#require
 # example:
@@ -36,6 +37,14 @@ class String
   def codepoint
     self.ord.to_s(16)
   end
+end
+
+module Charnames
+  def viachar(char)
+    require "charnames/code"
+    VIACODE[char.ord]
+  end
+  module_function :viachar
 end
 
 IRB.conf[:PROMPT][:MINE] = {
