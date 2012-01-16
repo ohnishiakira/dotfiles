@@ -33,12 +33,20 @@ def render(html, options={})
   Haml::Engine.new(html, options).render
 end
 
+# Return Character's codepoint (hex)
+# expample:
+#   > "a".codepoint
+#   => "61"
 class String
   def codepoint
     self.ord.to_s(16)
   end
 end
 
+# Useful Shoftcut of Charanames
+# example:
+#   > Charnames.viachar "a"
+#   => "LATIN SMALL LETTER A"
 module Charnames
   def viachar(char)
     require "charnames/code"
