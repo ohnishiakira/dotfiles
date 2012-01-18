@@ -5,7 +5,6 @@ call vundle#rc()
 
 " github.com
 Bundle "pangloss/vim-javascript"
-Bundle "kana/vim-fakeclip"
 Bundle "altercation/vim-colors-solarized"
 Bundle "thinca/vim-quickrun"
 Bundle "cakebaker/scss-syntax.vim"
