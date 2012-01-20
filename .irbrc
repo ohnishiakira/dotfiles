@@ -1,4 +1,5 @@
 require "pp"
+require "json"
 require "what_methods"
 require "charnames"
 
