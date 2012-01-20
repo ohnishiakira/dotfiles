@@ -40,7 +40,7 @@ end
 #   => "61"
 class String
   def codepoint
-    self.ord.to_s(16)
+    "0x#{self.ord.to_s(16)}"
   end
 end
 
