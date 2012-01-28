@@ -38,7 +38,7 @@ end
 # Return Character's codepoint (hex)
 # expample:
 #   > "a".codepoint
-#   => "61"
+#   => "0x61"
 class String
   def codepoint
     "0x#{self.ord.to_s(16)}"
