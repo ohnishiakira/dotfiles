@@ -4,26 +4,26 @@ set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 " github.com
-Bundle "pangloss/vim-javascript"
-Bundle "altercation/vim-colors-solarized"
-Bundle "thinca/vim-quickrun"
-Bundle "cakebaker/scss-syntax.vim"
-Bundle "Shougo/neocomplcache"
-Bundle "mattn/zencoding-vim"
-Bundle "othree/html5.vim"
-Bundle "motemen/git-vim"
-Bundle "scrooloose/nerdcommenter"
-Bundle "mattn/gist-vim"
-Bundle "ChrisYip/Better-CSS-Syntax-for-Vim"
-Bundle "Shougo/vimproc"
-Bundle "Shougo/unite.vim"
-Bundle "Shougo/vimfiler"
-Bundle "h1mesuke/vim-alignta"
-Bundle "tpope/vim-markdown"
+Bundle 'pangloss/vim-javascript'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'thinca/vim-quickrun'
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'Shougo/neocomplcache'
+Bundle 'mattn/zencoding-vim'
+Bundle 'othree/html5.vim'
+Bundle 'motemen/git-vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'mattn/gist-vim'
+Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+Bundle 'Shougo/vimproc'
+Bundle 'Shougo/unite.vim'
+Bundle 'Shougo/vimfiler'
+Bundle 'h1mesuke/vim-alignta'
+Bundle 'tpope/vim-markdown'
 
 " vim.org
-Bundle "JSON.vim"
-Bundle "matchit.zip"
-Bundle "surround.vim"
+Bundle 'JSON.vim'
+Bundle 'matchit.zip'
+Bundle 'surround.vim'
 
 filetype plugin indent on
