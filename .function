@@ -61,3 +61,17 @@ function remove_ds_store {
 function myunzip {
   \unzip $1 -d `basename $1 .zip`
 }
+
+function to {
+  local user=$1
+  local path=""
+
+  case $2 in
+    fa* ) path="/favorites" ;;
+    fw* ) path="/following" ;;
+    fe* ) path="/followers" ;;
+    l* ) path="/lists" ;;
+  esac
+
+  go http://twitter.com/$user$path
+}
