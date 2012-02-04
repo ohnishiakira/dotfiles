@@ -20,6 +20,7 @@ Bundle 'Shougo/unite.vim'
 Bundle 'Shougo/vimfiler'
 Bundle 'h1mesuke/vim-alignta'
 Bundle 'tpope/vim-markdown'
+Bundle 'msanders/snipmate.vim'
 
 " vim.org
 Bundle 'JSON.vim'
