@@ -75,3 +75,7 @@ function to {
 
   go http://twitter.com/$user$path
 }
+
+function reloadrc {
+  source ~/.$(basename `echo $SHELL`)rc
+}
