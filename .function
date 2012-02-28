@@ -79,3 +79,13 @@ function to {
 function reloadrc {
   source ~/.$(basename `echo $SHELL`)rc
 }
+
+function mywhich {
+  for command in $*
+  do
+    \which $command
+    if [ $? -ne 0 ]; then
+      \which $(expand_alias $command)
+    fi
+  done
+}
