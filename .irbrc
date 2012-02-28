@@ -57,6 +57,10 @@ module Charnames
   module_function :viachar
 end
 
+class Method
+  alias_method :src, :source_location
+end
+
 IRB.conf[:PROMPT][:MINE] = {
   :PROMPT_C=>"%N(%m):%03n:%i* ",
   :RETURN=>"",
