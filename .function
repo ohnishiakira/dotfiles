@@ -55,7 +55,7 @@ function goAndroid {
 }
 
 function remove_ds_store {
-  find . -name .DS_Store -delete
+  find . -name .DS_Store -exec rm -v {} \;
 }
 
 function myunzip {
