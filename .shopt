@@ -1,1 +1,2 @@
 shopt -s cdspell
+complete -o default -o nospace -F _git g
