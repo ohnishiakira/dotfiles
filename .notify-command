@@ -1,0 +1,28 @@
+# vim: set filetype=sh:
+
+EXECTIME=0
+PROMPT_COMMAND='prompt_command'
+
+function notify_command {
+  local t=$(expr $(date +%s) - $EXECTIME)
+
+  if [ 3 -le $t ]; then
+    growlnotify \
+      -n notify-last-command \
+      -t "${t}s" \
+      -m "$( history 1 | awk '{s="";for(i=2;i<=NF;i++){s=s" "$i}print s}' )"
+  fi
+
+  EXECTIME=0
+}
+
+function prompt_command {
+  notify_command
+}
+
+function exec_time {
+  if [ 0 -eq $EXECTIME ]; then
+    EXECTIME=$(expr $(date +%s))
+  fi
+}
+trap 'exec_time' DEBUG
