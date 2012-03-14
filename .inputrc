@@ -1,5 +1,6 @@
 # 補完時に大文字小文字を無視
 set completion-ignore-case on
+set completion-map-case on
 
 # 自動で横スクロール
 set horizontal-scroll-mode on
