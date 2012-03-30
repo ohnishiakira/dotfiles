@@ -35,7 +35,7 @@ function gemcd {
 
 # show latest edited 10 files
 function l10 {
-  ls -ltr | tail -10
+  ls -lhtr | tail -10
 }
 
 function google {
