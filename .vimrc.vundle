@@ -22,6 +22,7 @@ Bundle 'h1mesuke/vim-alignta'
 Bundle 'tpope/vim-markdown'
 Bundle 'msanders/snipmate.vim'
 Bundle 'sjl/gundo.vim'
+Bundle 'mattn/webapi-vim'
 
 " vim.org
 Bundle 'JSON.vim'
