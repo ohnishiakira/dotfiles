@@ -1,0 +1,2 @@
+let g:github_user = "ohnishiakira"
+let g:gist_open_browser_after_post = 1
