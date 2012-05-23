@@ -1,0 +1,35 @@
+[user]
+  name  = Akira Ohnishi
+  email = s06206ao@gmail.com
+
+[color]
+  ui = auto
+
+[core]
+  excludesfile = ~/.gitignore-global
+  editor       = vim
+  quotepath    = false
+  pager        = LESS=-R less
+
+[alias]
+  a  = add
+  ap = add -p
+  au = add -u
+  b  = branch
+  c  = commit
+  ca = commit -am
+  cm = commit -m
+  co = checkout
+  d  = diff
+  g  = grep -in
+  ge = grep -inEP
+  gw = grep -inw
+  h  = help
+  l  = log
+  l1 = log --oneline
+  ls = ls-files
+  s  = show
+  st = status
+  w1 = whatchanged --oneline
+  wc = whatchanged
+  dc = diff --cached
