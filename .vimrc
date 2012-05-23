@@ -28,7 +28,7 @@ set backupdir=~/tmp
 set showtabline=2
 syntax enable
 
-" set background=dark
+set background=dark
 colorscheme solarized
 
 " autocmd FileType *
