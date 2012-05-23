@@ -7,4 +7,4 @@ source ~/dotfiles/.notify-command
 source ~/src/git/contrib/completion/git-completion.bash
 __git_complete g _git
 
-PS1="\$(csrv)[\t][\$(rvm current)] \w\n\$ "
+PS1="\$(csrv)[\t][\$(rvm current)] \w \$(__git_ps1 \"(%s)\")\n\$ "
