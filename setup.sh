@@ -7,5 +7,5 @@ DOTFILES=( .bashrc .gemrc .inputrc .irbrc .vimrc .zshrc .gitconfig .gitignore-gl
 
 for dotfile in ${DOTFILES[@]}
 do
-  ln -Fis $HOME/dotfiles/$file $HOME/$file
+  ln -Fis $HOME/dotfiles/$dotfile $HOME/$dotfile
 done
