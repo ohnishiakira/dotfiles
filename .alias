@@ -23,6 +23,7 @@ alias ff="open -a Firefox"
 alias slck="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
 alias unzip="myunzip"
 alias tree="tree -N"
+alias b="bundle"
 
 for cmd in $(ruby -e 'print "irb".split(//).permutation(3).map(&:join).join(" ")')
 do
