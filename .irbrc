@@ -1,3 +1,5 @@
+# coding: utf-8
+
 require "pp"
 require "date"
 require "json"
