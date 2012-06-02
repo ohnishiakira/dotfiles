@@ -89,3 +89,8 @@ function mywhich {
     fi
   done
 }
+
+function mywc {
+  printf "%8s%8s%8s\n" line word byte
+  \wc $*
+}
