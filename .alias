@@ -24,6 +24,7 @@ alias slck="/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSav
 alias unzip="myunzip"
 alias tree="tree -N"
 alias b="bundle"
+alias mdkir="mkdir"
 
 for cmd in $(ruby -e 'print "irb".split(//).permutation(3).map(&:join).join(" ")')
 do
